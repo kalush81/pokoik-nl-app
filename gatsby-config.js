@@ -6,5 +6,26 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "oferty wnajmu pokoi/mieszkan",
+    author: "Chris & Dominika",
+  },
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `offerts`,
+        path: `${__dirname}/src/offerts`,
+      },
+    },
+  ],
 }
