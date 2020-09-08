@@ -2,6 +2,9 @@
 title: oferuje pokoj do wynajecie w Leiden
 date: 02-09-2020
 imgSrc: https://cf.bstatic.com/images/hotel/max1280x900/246/246068559.jpg
+city: Leiden
+price: 575
+mediaIncluded: ['gas', 'water']
 ---
 
 witam , zapraszam do odwiedzin mojego apartamentu

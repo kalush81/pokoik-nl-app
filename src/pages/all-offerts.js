@@ -14,6 +14,8 @@ export default function AllOffers() {
               date
               title
               imgSrc
+              price
+              mediaIncluded
             }
           }
         }
@@ -24,13 +26,15 @@ export default function AllOffers() {
   return (
     <Layout>
       <div style={{ minHeight: "60vh" }}>
-        <h1>List of all offerts</h1>
+        <h1>List of all offers</h1>
         {data.allMarkdownRemark.edges.map(edge => {
           return (
             <Offer
               title={edge.node.frontmatter.title}
               date={edge.node.frontmatter.date}
               imgSrc={edge.node.frontmatter.imgSrc}
+              price={edge.node.frontmatter.price}
+              media={edge.node.frontmatter.mediaIncluded}
             />
           )
         })}

@@ -2,6 +2,9 @@
 title: mam pokoj do wynajecie w okolicach Amsterdamu
 date: 03-09-2020
 imgSrc: https://cf.bstatic.com/images/hotel/max1280x900/176/176854746.jpg
+city: Amsterdam
+price: 550
+mediaIncluded: []
 ---
 
 ponizej sa widoczne zdjecia tego apartamentu
